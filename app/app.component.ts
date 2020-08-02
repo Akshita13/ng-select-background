@@ -49,7 +49,9 @@ export class AppComponent {
     console.log(value,i)
 
     if(value.name==="if"){
+      // this.storedIndex.push({i:i,name:value.name})
       this.storedIndex.push(i)
+
       console.log(this.storedIndex)
     }else if(value.name==='end'){
       this.storedIndex.push(i)
